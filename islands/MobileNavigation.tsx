@@ -42,18 +42,15 @@ export default function MobileNavigation(props: {
 			<button
 				type="button"
 				onClick={() => setIsOpen(true)}
-				className={isOpen ? "hidden " : "block " + "mx-4 mt-5 sm:mx-5"}
+				className={isOpen ? "hidden " : "block " + "mx-4 sm:mx-5"}
 				aria-label="Open navigation"
 			>
 				<MenuIcon className="h-6 w-6" style={{ stroke: "#64748b" }} />
 			</button>
 			<div
-				class={
-					isOpen
-						? "flex "
-						: "hidden " +
-						  "fixed inset-0 z-50 items-start overflow-y-auto bg-slate-900/50 pr-10 backdrop-blur lg:hidden"
+				class={`fixed inset-0 z-50 items-start overflow-y-auto bg-slate-900/50 pr-10 backdrop-blur lg:hidden ${isOpen ? "flex" : "hidden"}` 
 				}
+				style={{backdropFilter: "blur(8px)"}}
 			>
 				<div
 					class={
