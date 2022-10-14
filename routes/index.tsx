@@ -1,6 +1,6 @@
 import { Head } from "$fresh/runtime.ts";
 import Layout from "../components/Layout.tsx";
-import navigation from "@/utils/navigation.ts"
+import navigation from "$/utils/navigation.ts"
 
 export default function App() {
   return (
@@ -8,7 +8,8 @@ export default function App() {
       <Head>
         <title>Hello World</title>
       </Head>
-      <Layout navigation={navigation}></Layout>
+      <Layout navigation={navigation}>
+      </Layout>
     </body>
   );
 }

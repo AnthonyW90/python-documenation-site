@@ -1,9 +1,9 @@
 import { Head } from "$fresh/runtime.ts";
 import { PageProps, Handlers } from "$fresh/server.ts";
-import { frontMatter, gfm } from "@/utils/markdown.ts";
-import Layout from "@/components/Layout.tsx";
-import navigation from "@/utils/navigation.ts";
-import { Section } from "@/utils/docs.ts";
+import { frontMatter, gfm } from "$/utils/markdown.ts";
+import Layout from "$/components/Layout.tsx";
+import navigation from "$/utils/navigation.ts";
+import { Section } from "$/utils/docs.ts";
 
 export const handler: Handlers = {
 	async GET(req, ctx) {

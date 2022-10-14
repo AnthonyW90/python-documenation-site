@@ -1,5 +1,6 @@
-import { Options } from "$fresh/plugins/twind.ts";
+// import { Options } from "$fresh/plugins/twind.ts";
 
+/** @type {import("$fresh").Options} */
 export default {
   // selfURL: import.meta.url,
   theme: {

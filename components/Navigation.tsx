@@ -1,6 +1,6 @@
-import navigation from "@/utils/navigation.ts";
+import navigation from "$/utils/navigation.ts";
 import { PageProps } from "https://deno.land/x/fresh@1.1.1/server.ts";
-import { Section } from "../utils/docs.ts";
+import { Section } from "$/utils/docs.ts";
 
 const DocumentIcon = (props: { class?: string }) => {
 	return (
@@ -77,7 +77,7 @@ const PracticeIcon = (props: { class?: string }) => {
 		</svg>
 	);
 };
-export default (props: { navigation: Record<string, Section> }) => {
+export default (props: { navigation: Record<string, Section>, className?: string }) => {
 	const { navigation } = props;
 	return (
 		<>

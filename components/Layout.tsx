@@ -2,6 +2,7 @@ import { ComponentChildren } from "preact";
 import { Content } from "./Content.tsx";
 import { Section } from "../utils/docs.ts";
 import Navigation from "./Navigation.tsx";
+import Header from "$/islands/Header.tsx"
 
 const HomeIcon = () => {
 	return (
@@ -27,6 +28,8 @@ const Layout = (props: {
 	const { navigation } = props;
 	const isRoot = Object.keys(navigation).length > 1;
 	return (
+		<>
+		<Header navigation={props.navigation}/>
 		<div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
 			<div className="hidden lg:relative lg:block lg:flex-none">
 				<div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
@@ -48,6 +51,7 @@ const Layout = (props: {
 				</article>
 			</div>
 		</div>
+		</>
 	);
 };
 

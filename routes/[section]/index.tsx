@@ -1,8 +1,8 @@
 import { Head } from "$fresh/runtime.ts";
 import { PageProps } from "$fresh/server.ts";
-import Layout from "@/components/Layout.tsx"
-import { Section } from "@/utils/docs.ts";
-import navigation from "@/utils/navigation.ts";
+import Layout from "$/components/Layout.tsx"
+import { Section } from "$/utils/docs.ts";
+import navigation from "$/utils/navigation.ts";
 
 const Document = (props: PageProps) => {
   const nav: Record<string, Section> = {}
