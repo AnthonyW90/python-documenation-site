@@ -153,6 +153,7 @@ const navigation = {
         { title: 'Django Redo', href: 'django-redo' },
         { title: 'Todo', href: 'todo' },
         { title: 'Blog', href: 'blog' },
+        { title: 'Chirp', href: 'chirp' },
       ],
       mob: [
         { title: 'Polls', href: 'polls' },
