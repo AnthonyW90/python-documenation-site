@@ -188,6 +188,7 @@ const navigation = {
       ],
       labs: [
         { title: 'JavaScript Redo', href: 'javascript-redo' },
+        { title: 'Todo List', href: 'javascript-todo'},
         { title: 'Vue Redo', href: 'vue-redo' },
         { title: 'Vue Todo', href: 'vue-todo' },
         { title: 'Any API', href: 'any-api' },
