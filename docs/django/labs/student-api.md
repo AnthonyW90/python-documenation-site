@@ -32,3 +32,7 @@ To test everything is working, use the Django Rest Framework browsable API by vi
 ## Part 3 (Optional)
 
 Add the ability to search or filter students using URL parameters. Consult the DRF documentation here: https://www.django-rest-framework.org/api-guide/filtering/
+
+## Part 4 (Optional)
+
+Create a frontend for your API. You can use Vue or plain JavaScript. Be sure to add styles to make it look nice!
