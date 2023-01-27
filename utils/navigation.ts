@@ -154,6 +154,7 @@ const navigation = {
         { title: 'Todo', href: 'todo' },
         { title: 'Blog', href: 'blog' },
         { title: 'Chirp', href: 'chirp' },
+        { title: 'Student API', href: 'student-api'}
       ],
       mob: [
         { title: 'Polls', href: 'polls' },
